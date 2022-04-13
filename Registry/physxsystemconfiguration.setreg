@@ -7,7 +7,7 @@
                         "Layers": {
                             "LayerNames": [
                                 "Default",
-                                {},
+                                "ground",
                                 {},
                                 {},
                                 {},
@@ -87,6 +87,15 @@
                                         "Mask": 0
                                     },
                                     "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{3FA50630-3F64-45B1-B77D-EDC2EE14A3FD}"
+                                    },
+                                    "Name": "ground",
+                                    "Group": {
+                                        "Mask": 18446744073709551614
+                                    }
                                 }
                             ]
                         }

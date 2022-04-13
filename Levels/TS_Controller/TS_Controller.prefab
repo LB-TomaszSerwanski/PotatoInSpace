@@ -20,7 +20,8 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[41323750559827]"
+                    "Entity_[41323750559827]",
+                    "Instance_[529970603420016]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -158,6 +159,12 @@
                     "$type": "EditorColliderComponent",
                     "Id": 2731637975649619597,
                     "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{3FA50630-3F64-45B1-B77D-EDC2EE14A3FD}"
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}
@@ -264,7 +271,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 16611485067275859197
+                            "EditorEntityId": 9827225096360758596
                         }
                     }
                 },
@@ -353,9 +360,9 @@
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
                         "Translate": [
-                            10.140228271484375,
+                            10.140242576599121,
                             0.0,
-                            -0.017698056995868683
+                            -0.009926557540893555
                         ],
                         "Rotate": [
                             0.0,
@@ -376,6 +383,28 @@
                                 },
                                 "assetHint": "objects/shaderball/shaderball_default_1m.azmodel"
                             }
+                        }
+                    }
+                },
+                "Component_[7490967883104449273]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7490967883104449273,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 1.0
                         }
                     }
                 },
@@ -707,7 +736,7 @@
                         "Translate": [
                             0.0,
                             0.0,
-                            3.622018814086914
+                            0.30246973037719727
                         ]
                     }
                 },
@@ -724,6 +753,33 @@
                     "Id": 9928186710221945408
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[529970603420016]": {
+            "Source": "Assets/Prefabs/Bullet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7164114166588491751]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7164114166588491751]/Transform Data/Translate/0",
+                    "value": 13.81391429901123
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7164114166588491751]/Transform Data/Translate/1",
+                    "value": 1.6731910705566406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7164114166588491751]/Transform Data/Translate/2",
+                    "value": 2.9276647567749023
+                }
+            ]
         }
     }
 }
