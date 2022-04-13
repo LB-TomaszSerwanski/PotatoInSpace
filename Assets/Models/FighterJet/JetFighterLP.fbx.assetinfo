@@ -1,0 +1,68 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D6CD515B-D497-5E6E-8933-F09B94703485}",
+            "name": "JetFighterLP",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Cylinder_003",
+                    "RootNode.Cylinder_003.Cylinder_003_1",
+                    "RootNode.Cylinder_003.Cylinder_003_2",
+                    "RootNode.Cylinder_003.Cylinder_003_1.transform",
+                    "RootNode.Cylinder_003.Cylinder_003_1.custom_properties",
+                    "RootNode.Cylinder_003.Cylinder_003_1.UVMap",
+                    "RootNode.Cylinder_003.Cylinder_003_1.body_001",
+                    "RootNode.Cylinder_003.Cylinder_003_2.transform",
+                    "RootNode.Cylinder_003.Cylinder_003_2.custom_properties",
+                    "RootNode.Cylinder_003.Cylinder_003_2.UVMap",
+                    "RootNode.Cylinder_003.Cylinder_003_2.body_001"
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "JetFighterLP",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Cylinder_003",
+                    "RootNode.Cylinder_003.Cylinder_003_1",
+                    "RootNode.Cylinder_003.Cylinder_003_2",
+                    "RootNode.Cylinder_003.Cylinder_003_1.transform",
+                    "RootNode.Cylinder_003.Cylinder_003_1.custom_properties",
+                    "RootNode.Cylinder_003.Cylinder_003_1.UVMap",
+                    "RootNode.Cylinder_003.Cylinder_003_1.body_001",
+                    "RootNode.Cylinder_003.Cylinder_003_2.transform",
+                    "RootNode.Cylinder_003.Cylinder_003_2.custom_properties",
+                    "RootNode.Cylinder_003.Cylinder_003_2.UVMap",
+                    "RootNode.Cylinder_003.Cylinder_003_2.body_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ],
+                        "scale": 3.0
+                    }
+                ]
+            },
+            "id": "{26140FB5-8833-5356-AE69-2C10DE76AEF6}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

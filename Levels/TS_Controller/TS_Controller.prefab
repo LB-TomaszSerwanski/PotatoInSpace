@@ -20,7 +20,6 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[41323750559827]",
                     "Entity_[41323750559827]"
                 ]
             },
@@ -155,9 +154,68 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 16919232076966545697
                 },
+                "Component_[2731637975649619597]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 2731637975649619597,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 51387626
+                                },
+                                "assetHint": "objects/groudplane/groundplane_512x512m.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 51387626
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[5182430712893438093]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 5182430712893438093
+                    "Id": 5182430712893438093,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 803645540
+                                    },
+                                    "Value": {
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.7074845433235168,
+                                                    0.0628824308514595,
+                                                    0.0628824308514595,
+                                                    1.0
+                                                ]
+                                            },
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[5675108321710651991]": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -250,13 +308,6 @@
                 "Component_[7169798125182238623]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7169798125182238623
-                },
-                "Component_[7255796294953281766]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7255796294953281766,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent"
-                    }
                 },
                 "Component_[8866210352157164042]": {
                     "$type": "EditorInspectorComponent",
@@ -395,6 +446,19 @@
                         "Entity_[1159459292531]"
                     ]
                 },
+                "Component_[8582608396744791689]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8582608396744791689,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{80CACEB8-B988-5888-BD7C-9D0121C64FB2}"
+                            },
+                            "assetHint": "assets/inputs/jetfightercontroller.inputbindings"
+                        }
+                    }
+                },
                 "Component_[9277695270015777859]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9277695270015777859
@@ -487,7 +551,7 @@
         },
         "Entity_[41323750559827]": {
             "Id": "Entity_[41323750559827]",
-            "Name": "Entity1",
+            "Name": "FighterJet",
             "Components": {
                 "Component_[11640642464078712244]": {
                     "$type": "EditorLockComponent",
@@ -524,6 +588,78 @@
                         }
                     }
                 },
+                "Component_[16902418110580452077]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16902418110580452077,
+                    "m_name": "FighterJetControllere.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
+                                },
+                                "VariableName": "moveSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
+                                },
+                                "VariableName": "moveSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{D96F48F8-DFBE-448F-9E71-820C99B98F12}"
+                                },
+                                "VariableName": "CameraEntity",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    },
+                    "sourceHandle": {
+                        "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
+                    }
+                },
                 "Component_[17200430978270548827]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 17200430978270548827,
@@ -532,10 +668,22 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{D791934A-339C-5D6E-93C6-B235A6EAD79E}",
-                                    "subId": 281301300
+                                    "subId": 275270123
                                 },
-                                "assetHint": "assets/models/fighterjet/default_jetfighterlprootnode_cylinder_003_cylinder_003_1.azmodel"
+                                "assetHint": "assets/models/fighterjet/jetfighterlp.azmodel"
                             }
+                        }
+                    }
+                },
+                "Component_[18387517852975700585]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 18387517852975700585,
+                    "Configuration": {
+                        "entityId": "",
+                        "Material": {
+                            "MaterialIds": [
+                                {}
+                            ]
                         }
                     }
                 },
