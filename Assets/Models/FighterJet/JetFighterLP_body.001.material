@@ -1,0 +1,22 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Assets/Models/FighterJet/FighterJet_body_BaseColor.1001.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "Assets/Models/FighterJet/FighterJet_body_Metallic.1001.png",
+        "normal.textureMap": "Assets/Models/FighterJet/FighterJet_body_Normal.1001.png",
+        "opacity.factor": 1.0
+    }
+}
