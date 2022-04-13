@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder PotatoInSpace/Assets": {
+                    "watch": "@GEMROOT:PotatoInSpace@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder PotatoInSpace/Registry": {
+                    "watch": "@GEMROOT:PotatoInSpace@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
