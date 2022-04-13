@@ -1,0 +1,20 @@
+{
+    "project_name": "PotatoInSpace",
+    "project_id": "{a290e41d-f84e-4a4e-aed1-b0d88e072384}",
+    "origin": "The primary repo for PotatoInSpace goes here: i.e. http://www.mydomain.com",
+    "license": "What license PotatoInSpace uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "PotatoInSpace",
+    "summary": "A short description of PotatoInSpace.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "PotatoInSpace"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-install",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "PotatoInSpace"
+}
