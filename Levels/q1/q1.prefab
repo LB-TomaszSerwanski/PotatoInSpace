@@ -20,7 +20,7 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[13839773708943]"
+                    "Entity_[1514469343833]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -65,8 +65,7 @@
                 },
                 "Component_[13620450453324765907]": {
                     "$type": "EditorLockComponent",
-                    "Id": 13620450453324765907,
-                    "Locked": true
+                    "Id": 13620450453324765907
                 },
                 "Component_[2134313378593666258]": {
                     "$type": "EditorInspectorComponent",
@@ -184,12 +183,87 @@
                 },
                 "Component_[7090012899106946164]": {
                     "$type": "EditorLockComponent",
-                    "Id": 7090012899106946164,
-                    "Locked": true
+                    "Id": 7090012899106946164
                 },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 9410832619875640998
+                }
+            }
+        },
+        "Entity_[1163754259827]": {
+            "Id": "Entity_[1163754259827]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[11895140916889160460]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11895140916889160460
+                },
+                "Component_[16880285896855930892]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 16880285896855930892,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 55.0,
+                            "EditorEntityId": 14296614602970754921
+                        }
+                    }
+                },
+                "Component_[17187464423780271193]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17187464423780271193
+                },
+                "Component_[17495696818315413311]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17495696818315413311
+                },
+                "Component_[18086214374043522055]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18086214374043522055,
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.3000001907348633,
+                            -3.9368600845336914,
+                            1.0
+                        ],
+                        "Rotate": [
+                            -2.050307512283325,
+                            1.9552897214889526,
+                            -43.623355865478516
+                        ]
+                    }
+                },
+                "Component_[18387556550380114975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18387556550380114975
+                },
+                "Component_[2654521436129313160]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2654521436129313160
+                },
+                "Component_[5265045084611556958]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5265045084611556958
+                },
+                "Component_[7169798125182238623]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7169798125182238623
+                },
+                "Component_[7255796294953281766]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7255796294953281766,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent"
+                    }
+                },
+                "Component_[8866210352157164042]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8866210352157164042
+                },
+                "Component_[9129253381063760879]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9129253381063760879
                 }
             }
         },
@@ -256,8 +330,7 @@
                 },
                 "Component_[9189909764215270515]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9189909764215270515,
-                    "Locked": true
+                    "Id": 9189909764215270515
                 }
             }
         },
@@ -326,8 +399,7 @@
                 },
                 "Component_[9439770997198325425]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9439770997198325425,
-                    "Locked": true
+                    "Id": 9439770997198325425
                 }
             }
         },
@@ -351,8 +423,7 @@
                 },
                 "Component_[14988041764659020032]": {
                     "$type": "EditorLockComponent",
-                    "Id": 14988041764659020032,
-                    "Locked": true
+                    "Id": 14988041764659020032
                 },
                 "Component_[15808690248755038124]": {
                     "$type": "SelectionComponent",
@@ -382,6 +453,7 @@
                         "Entity_[1180934129011]",
                         "Entity_[1172344194419]",
                         "Entity_[1168049227123]",
+                        "Entity_[1163754259827]",
                         "Entity_[1159459292531]"
                     ]
                 },
@@ -416,8 +488,7 @@
                 },
                 "Component_[1428633914413949476]": {
                     "$type": "EditorLockComponent",
-                    "Id": 1428633914413949476,
-                    "Locked": true
+                    "Id": 1428633914413949476
                 },
                 "Component_[14936200426671614999]": {
                     "$type": "AZ::Render::EditorImageBasedLightComponent",
@@ -476,82 +547,83 @@
                 }
             }
         },
-        "Entity_[13839773708943]": {
-            "Id": "Entity_[13839773708943]",
+        "Entity_[1514469343833]": {
+            "Id": "Entity_[1514469343833]",
             "Name": "Entity1",
             "Components": {
-                "Component_[10511507590135665330]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10511507590135665330
+                "Component_[11616656210098936095]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11616656210098936095,
+                    "m_name": "Untitled-1.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{748E6C43-15DC-5964-98C1-9A23ECE890D3}",
+                            "path": "Users/GPC-464/O3DE/Projects/PotatoInSpace/scriptcanvas/Untitled-1.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{748E6C43-15DC-5964-98C1-9A23ECE890D3}",
+                        "path": "Users/GPC-464/O3DE/Projects/PotatoInSpace/scriptcanvas/Untitled-1.scriptcanvas"
+                    }
                 },
-                "Component_[1055949440104009769]": {
+                "Component_[12963766398135154287]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12963766398135154287
+                },
+                "Component_[13833866158184472614]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13833866158184472614
+                },
+                "Component_[14275467925159138566]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14275467925159138566
+                },
+                "Component_[15942782736942734647]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 1055949440104009769,
+                    "Id": 15942782736942734647,
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
                             0.0,
-                            0.0999908447265625,
-                            4.015410900115967
+                            0.09998893737792969,
+                            4.016085147857666
                         ]
                     }
                 },
-                "Component_[11613769922174988955]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11613769922174988955
-                },
-                "Component_[12763754113366913467]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 12763754113366913467
-                },
-                "Component_[15132309087210820382]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 15132309087210820382
-                },
-                "Component_[18182302343999643274]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 18182302343999643274
-                },
-                "Component_[1982636732530128175]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1982636732530128175
-                },
-                "Component_[2234063115600459045]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 2234063115600459045
-                },
-                "Component_[387012056979663219]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 387012056979663219
-                },
-                "Component_[4044992111988877498]": {
+                "Component_[16013712157915487610]": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 4044992111988877498
+                    "Id": 16013712157915487610
                 },
-                "Component_[4602679538266065685]": {
+                "Component_[1936573618347435321]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1936573618347435321
+                },
+                "Component_[2197508272102873247]": {
                     "$type": "GenericComponentWrapper",
-                    "Id": 4602679538266065685,
+                    "Id": 2197508272102873247,
                     "m_template": {
                         "$type": "UiCanvasAssetRefComponent",
                         "CanvasAssetRef": {
-                            "AssetPath": "assets/ui/intro.uicanvas"
-                        }
+                            "AssetPath": "scriptcanvas/canvas1.uicanvas"
+                        },
+                        "IsAutoLoad": true
                     }
                 },
-                "Component_[6159358840372053152]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 6159358840372053152,
-                    "m_name": "MainScript.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                            "path": "Users/GPC-464/O3DE/Projects/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                        }
-                    },
-                    "sourceHandle": {
-                        "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                        "path": "Users/GPC-464/O3DE/Projects/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                    }
+                "Component_[3311715193425302364]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3311715193425302364
+                },
+                "Component_[4080161914980289421]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4080161914980289421
+                },
+                "Component_[5000094311100118019]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5000094311100118019
+                },
+                "Component_[9184453525881163551]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9184453525881163551
                 }
             }
         }
