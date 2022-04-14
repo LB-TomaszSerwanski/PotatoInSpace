@@ -58,6 +58,40 @@
             "Id": "Entity_[529979193354608]",
             "Name": "BulletA",
             "Components": {
+                "Component_[1023996132519877429]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 1023996132519877429,
+                    "ShapeColor": [
+                        0.0,
+                        0.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "Component_[10687737752175158694]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 10687737752175158694,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Color": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "Intensity": 50000.0,
+                            "AttenuationRadius": 190.0,
+                            "EnableShutters": true,
+                            "InnerShutterAngleDegrees": 23.770000457763672,
+                            "OuterShutterAngleDegrees": 29.139999389648438
+                        }
+                    }
+                },
                 "Component_[11179097742219011657]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 11179097742219011657
@@ -69,16 +103,16 @@
                 "Component_[14972858780009517703]": {
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 14972858780009517703,
-                    "m_name": "BulletScript.scriptcanvas",
+                    "m_name": "BulletScriptUpdated.scriptcanvas",
                     "runtimeDataOverrides": {
                         "source": {
-                            "id": "{0D1F08A0-66CA-5935-91A9-E3DC51E20266}",
-                            "path": "projekty/PotatoInSpace/scriptcanvas/BulletScript.scriptcanvas"
+                            "id": "{F20CB4B6-BEF5-57F3-AB2A-873C10268F4D}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptUpdated.scriptcanvas"
                         }
                     },
                     "sourceHandle": {
-                        "id": "{0D1F08A0-66CA-5935-91A9-E3DC51E20266}",
-                        "path": "projekty/PotatoInSpace/scriptcanvas/BulletScript.scriptcanvas"
+                        "id": "{F20CB4B6-BEF5-57F3-AB2A-873C10268F4D}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptUpdated.scriptcanvas"
                     }
                 },
                 "Component_[16529787681327099194]": {
@@ -91,12 +125,17 @@
                     "Configuration": {
                         "entityId": "",
                         "Gravity Enabled": false,
-                        "Mass": 65.4498519897461,
+                        "Mass": 65.45002746582031,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            0.2500002384185791
+                        ],
                         "Inertia tensor": {
                             "roll": 0.0,
                             "pitch": 0.0,
                             "yaw": 0.0,
-                            "scale": 0.6111549735069275
+                            "scale": 0.6111521124839783
                         }
                     }
                 },
@@ -144,25 +183,10 @@
                         "ShapeType": 0,
                         "Sphere": {
                             "Scale": [
-                                0.5,
-                                0.5,
-                                0.5
+                                0.5000004768371582,
+                                0.5000004768371582,
+                                0.5000004768371582
                             ]
-                        }
-                    }
-                },
-                "Component_[3373047152789471329]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 3373047152789471329,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{6DE0E9A8-A1C7-5D0F-9407-4E627C1F223C}",
-                                    "subId": 284780167
-                                },
-                                "assetHint": "models/sphere.azmodel"
-                            }
                         }
                     }
                 },
@@ -175,7 +199,17 @@
                     "Id": 44778732486781370,
                     "Parent Entity": "ContainerEntity",
                     "Transform Data": {
-                        "UniformScale": 0.5
+                        "Translate": [
+                            1.3076791763305664,
+                            0.0,
+                            0.5
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 0.5000004768371582
                     }
                 },
                 "Component_[6209778817584727733]": {
