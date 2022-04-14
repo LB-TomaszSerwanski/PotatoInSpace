@@ -208,11 +208,14 @@
                                             "baseColor.color": {
                                                 "$type": "Color",
                                                 "Value": [
-                                                    0.7074845433235168,
-                                                    0.0628824308514595,
-                                                    0.0628824308514595,
+                                                    0.24489204585552216,
+                                                    0.24489204585552216,
+                                                    0.24489204585552216,
                                                     1.0
                                                 ]
+                                            },
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId"
                                             }
                                         }
                                     }
@@ -377,6 +380,34 @@
                 "Component_[12037033284781049225]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12037033284781049225
+                },
+                "Component_[12129118241995655063]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12129118241995655063,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3716062507
+                                    },
+                                    "Value": {
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.16667430102825165,
+                                                    0.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[13759153306105970079]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -705,6 +736,34 @@
                         "ShapeType": 0,
                         "Sphere": {
                             "Radius": 1.0
+                        }
+                    }
+                },
+                "Component_[7948216728805600097]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7948216728805600097,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3716062507
+                                    },
+                                    "Value": {
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.8833295106887817,
+                                                    1.0,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     }
                 },

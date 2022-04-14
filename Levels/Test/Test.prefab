@@ -20,8 +20,7 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[150464769745055]",
-                    "Instance_[150469064712351]/ContainerEntity"
+                    "Entity_[150464769745055]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -401,6 +400,34 @@
                 "Component_[9439770997198325425]": {
                     "$type": "EditorLockComponent",
                     "Id": 9439770997198325425
+                },
+                "Component_[988626978956866485]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 988626978956866485,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3716062507
+                                    },
+                                    "Value": {
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.053330279886722565,
+                                                    0.053330279886722565,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -616,33 +643,6 @@
                     "Id": 8157739681019107758
                 }
             }
-        }
-    },
-    "Instances": {
-        "Instance_[150469064712351]": {
-            "Source": "Prefabs/PrefabTest.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[14256622259142647183]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[14256622259142647183]/Transform Data/Translate/0",
-                    "value": -6.625826358795166
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[14256622259142647183]/Transform Data/Translate/1",
-                    "value": 0.10000133514404297
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[14256622259142647183]/Transform Data/Translate/2",
-                    "value": 3.999904155731201
-                }
-            ]
         }
     }
 }
