@@ -103,16 +103,16 @@
                 "Component_[14972858780009517703]": {
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 14972858780009517703,
-                    "m_name": "BulletScriptUpdated.scriptcanvas",
+                    "m_name": "BulletScriptLight.scriptcanvas",
                     "runtimeDataOverrides": {
                         "source": {
-                            "id": "{F20CB4B6-BEF5-57F3-AB2A-873C10268F4D}",
-                            "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptUpdated.scriptcanvas"
+                            "id": "{40345285-529E-5421-9023-7439B890A6C9}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptLight.scriptcanvas"
                         }
                     },
                     "sourceHandle": {
-                        "id": "{F20CB4B6-BEF5-57F3-AB2A-873C10268F4D}",
-                        "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptUpdated.scriptcanvas"
+                        "id": "{40345285-529E-5421-9023-7439B890A6C9}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/BulletScriptLight.scriptcanvas"
                     }
                 },
                 "Component_[16529787681327099194]": {

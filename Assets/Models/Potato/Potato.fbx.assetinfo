@@ -1,0 +1,50 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{320231F3-A800-59AD-A9A8-CCB410A31C08}",
+            "name": "Potato",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Camera",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.Sphere_1",
+                    "RootNode.Sphere.Sphere_2"
+                ]
+            },
+            "MaterialSlots": [
+                "Material_001"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Potato",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Camera",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.Sphere_1",
+                    "RootNode.Sphere.Sphere_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{6C42CA45-5ED5-5CC9-B0A9-BFB60B435707}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
