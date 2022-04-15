@@ -743,7 +743,24 @@
                 },
                 "Component_[15160349169186579302]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15160349169186579302
+                    "Id": 15160349169186579302,
+                    "DisabledComponents": [
+                        {
+                            "$type": "EditorScriptCanvasComponent",
+                            "Id": 513269112303222069,
+                            "m_name": "MainScript.scriptcanvas",
+                            "runtimeDataOverrides": {
+                                "source": {
+                                    "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                                    "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                                }
+                            },
+                            "sourceHandle": {
+                                "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                                "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                            }
+                        }
+                    ]
                 },
                 "Component_[15363319464832839358]": {
                     "$type": "EditorEntitySortComponent",
@@ -770,21 +787,6 @@
                 "Component_[3842042479250714395]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 3842042479250714395
-                },
-                "Component_[513269112303222069]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 513269112303222069,
-                    "m_name": "MainScript.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                            "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                        }
-                    },
-                    "sourceHandle": {
-                        "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                        "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                    }
                 },
                 "Component_[8868828105712803460]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -940,7 +942,7 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            72.89205932617188,
+                            27.728370666503906,
                             0.10000808537006378,
                             -2.7148590087890625
                         ],
