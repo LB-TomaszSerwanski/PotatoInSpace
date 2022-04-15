@@ -741,26 +741,22 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 11747463897536974165
                 },
+                "Component_[13642557965429554217]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13642557965429554217,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{E22BE4FC-D9EE-5F7B-9F24-CC6832CB473F}"
+                            },
+                            "assetHint": "assets/ui/akey.inputbindings"
+                        }
+                    }
+                },
                 "Component_[15160349169186579302]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15160349169186579302,
-                    "DisabledComponents": [
-                        {
-                            "$type": "EditorScriptCanvasComponent",
-                            "Id": 513269112303222069,
-                            "m_name": "MainScript.scriptcanvas",
-                            "runtimeDataOverrides": {
-                                "source": {
-                                    "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                                    "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                                }
-                            },
-                            "sourceHandle": {
-                                "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                                "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                            }
-                        }
-                    ]
+                    "Id": 15160349169186579302
                 },
                 "Component_[15363319464832839358]": {
                     "$type": "EditorEntitySortComponent",
@@ -781,12 +777,28 @@
                         "$type": "UiCanvasAssetRefComponent",
                         "CanvasAssetRef": {
                             "AssetPath": "assets/ui/intro.uicanvas"
-                        }
+                        },
+                        "IsAutoLoad": true
                     }
                 },
                 "Component_[3842042479250714395]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 3842042479250714395
+                },
+                "Component_[513269112303222069]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 513269112303222069,
+                    "m_name": "MainScript.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                            "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                        "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                    }
                 },
                 "Component_[8868828105712803460]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
