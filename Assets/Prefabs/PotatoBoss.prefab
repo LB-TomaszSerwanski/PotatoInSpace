@@ -1,0 +1,231 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PotatoBoss",
+        "Components": {
+            "Component_[11092002807858723815]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11092002807858723815
+            },
+            "Component_[13093757151483133965]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13093757151483133965
+            },
+            "Component_[13603982533716101746]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13603982533716101746
+            },
+            "Component_[15178132608751368311]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15178132608751368311
+            },
+            "Component_[1721999271141847051]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1721999271141847051,
+                "Child Entity Order": [
+                    "Entity_[5506481172435]"
+                ]
+            },
+            "Component_[3312464567330518919]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3312464567330518919
+            },
+            "Component_[3839918472571692045]": {
+                "$type": "SelectionComponent",
+                "Id": 3839918472571692045
+            },
+            "Component_[5032008818163195720]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5032008818163195720,
+                "Parent Entity": ""
+            },
+            "Component_[6444003089453183934]": {
+                "$type": "EditorLockComponent",
+                "Id": 6444003089453183934
+            },
+            "Component_[8157813635448850308]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8157813635448850308
+            },
+            "Component_[8922496921163920671]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8922496921163920671
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5506481172435]": {
+            "Id": "Entity_[5506481172435]",
+            "Name": "PotatoBoss",
+            "Components": {
+                "Component_[1046286185729805235]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1046286185729805235,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
+                                    "subId": 3381287721
+                                },
+                                "assetHint": "assets/models/potato/potato.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    8.0,
+                                    8.0,
+                                    8.0
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
+                                        "subId": 3381287721
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/models/potato/potato.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[10578839208586596100]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10578839208586596100
+                },
+                "Component_[12064927137447785686]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12064927137447785686
+                },
+                "Component_[16173771879308805659]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16173771879308805659
+                },
+                "Component_[17034171758338927388]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17034171758338927388
+                },
+                "Component_[1769388530384213928]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1769388530384213928,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
+                                    "subId": 278141465
+                                },
+                                "assetHint": "assets/models/potato/potato.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2420318001245333745]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2420318001245333745,
+                    "m_name": "PotatoScript.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{6098DF47-DB8F-5232-9792-C05378AE5220}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/PotatoScript.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{6098DF47-DB8F-5232-9792-C05378AE5220}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/PotatoScript.scriptcanvas"
+                    }
+                },
+                "Component_[2458618847677685609]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2458618847677685609
+                },
+                "Component_[3144130856996940843]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3144130856996940843,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
+                                                "subId": 2328395911
+                                            },
+                                            "assetHint": "assets/models/potato/potato_material_001_7062975352964415623.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2328395911
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{361D797E-52A3-5B91-8522-E73EDA682120}"
+                                            },
+                                            "assetHint": "assets/models/potato/potato_material.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3877391221986580189]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3877391221986580189,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5181149770923499337
+                        },
+                        {
+                            "ComponentId": 2420318001245333745,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1769388530384213928,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3144130856996940843,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 1046286185729805235,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[5181149770923499337]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5181149770923499337,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 8.0
+                    }
+                },
+                "Component_[6098785699235527253]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6098785699235527253
+                },
+                "Component_[754505384300905972]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 754505384300905972
+                },
+                "Component_[9104492512308508653]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9104492512308508653
+                }
+            }
+        }
+    }
+}

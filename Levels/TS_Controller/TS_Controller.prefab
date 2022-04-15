@@ -20,10 +20,10 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[41323750559827]",
                     "Instance_[44354727726261]/ContainerEntity",
-                    "Entity_[63417953693335]",
-                    "Entity_[43898049632661]"
+                    "Entity_[43898049632661]",
+                    "Instance_[4699027320787]/ContainerEntity",
+                    "Instance_[5497891237843]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -344,7 +344,7 @@
                                     },
                                     "isNullPointer": false,
                                     "$type": "EntityId",
-                                    "value": "Entity_[41323750559827]"
+                                    "value": ""
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -523,208 +523,6 @@
                 }
             }
         },
-        "Entity_[41323750559827]": {
-            "Id": "Entity_[41323750559827]",
-            "Name": "FighterJet",
-            "Components": {
-                "Component_[11640642464078712244]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 11640642464078712244
-                },
-                "Component_[11894316883142242454]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 11894316883142242454
-                },
-                "Component_[12119421137870740418]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12119421137870740418
-                },
-                "Component_[16892395085355407701]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 16892395085355407701,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 24214524
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{CC8CE8CA-A13F-5304-83F7-19C978F743A4}"
-                                            },
-                                            "assetHint": "assets/models/fighterjet/jetfighterlp_body.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "Component_[16902418110580452077]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 16902418110580452077,
-                    "m_name": "FighterJetControllere.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
-                            "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
-                        },
-                        "variables": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 3
-                                    },
-                                    "isNullPointer": false,
-                                    "$type": "double",
-                                    "value": 5.0
-                                },
-                                "VariableId": {
-                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
-                                },
-                                "VariableName": "moveSpeed",
-                                "InitialValueSource": 1
-                            }
-                        ],
-                        "overrides": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 3
-                                    },
-                                    "isNullPointer": false,
-                                    "$type": "double",
-                                    "value": 5.0
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
-                                },
-                                "VariableName": "moveSpeed",
-                                "InitialValueSource": 1
-                            }
-                        ],
-                        "overridesUnused": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 1
-                                    },
-                                    "isNullPointer": false,
-                                    "$type": "EntityId",
-                                    "value": ""
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{D96F48F8-DFBE-448F-9E71-820C99B98F12}"
-                                },
-                                "VariableName": "CameraEntity",
-                                "InitialValueSource": 1
-                            }
-                        ]
-                    },
-                    "sourceHandle": {
-                        "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
-                        "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
-                    }
-                },
-                "Component_[17200430978270548827]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 17200430978270548827,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{D791934A-339C-5D6E-93C6-B235A6EAD79E}",
-                                    "subId": 275270123
-                                },
-                                "assetHint": "assets/models/fighterjet/jetfighterlp.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[18387517852975700585]": {
-                    "$type": "EditorCharacterControllerComponent",
-                    "Id": 18387517852975700585,
-                    "Configuration": {
-                        "entityId": "",
-                        "CollisionGroupId": {
-                            "GroupId": "{C8FA65FC-DF6D-455D-B48C-D284626C3A7D}"
-                        },
-                        "Material": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    }
-                },
-                "Component_[2127490419667373060]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2127490419667373060
-                },
-                "Component_[2168322434459849835]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 2168322434459849835
-                },
-                "Component_[3196671727195140216]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3196671727195140216
-                },
-                "Component_[6649302931403631281]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 6649302931403631281,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.30246973037719727
-                        ]
-                    }
-                },
-                "Component_[721784289161966700]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 721784289161966700,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "Position": [
-                            0.5,
-                            0.0,
-                            0.0
-                        ],
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "ShapeType": 0,
-                        "Sphere": {
-                            "Radius": 0.25
-                        }
-                    }
-                },
-                "Component_[8951604065603982974]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8951604065603982974
-                },
-                "Component_[9285655751037969402]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9285655751037969402
-                },
-                "Component_[9928186710221945408]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9928186710221945408
-                }
-            }
-        },
         "Entity_[43898049632661]": {
             "Id": "Entity_[43898049632661]",
             "Name": "UI",
@@ -817,168 +615,6 @@
                     "Id": 9589697446044705656
                 }
             }
-        },
-        "Entity_[63417953693335]": {
-            "Id": "Entity_[63417953693335]",
-            "Name": "PotatoBoss",
-            "Components": {
-                "Component_[1046286185729805235]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 1046286185729805235,
-                    "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
-                                    "subId": 3381287721
-                                },
-                                "assetHint": "assets/models/potato/potato.pxmesh"
-                            },
-                            "Configuration": {
-                                "Scale": [
-                                    8.0,
-                                    8.0,
-                                    8.0
-                                ],
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
-                                        "subId": 3381287721
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/potato/potato.pxmesh"
-                                }
-                            }
-                        }
-                    }
-                },
-                "Component_[10578839208586596100]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 10578839208586596100
-                },
-                "Component_[12064927137447785686]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12064927137447785686
-                },
-                "Component_[16173771879308805659]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 16173771879308805659
-                },
-                "Component_[17034171758338927388]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17034171758338927388
-                },
-                "Component_[1769388530384213928]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 1769388530384213928,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
-                                    "subId": 278141465
-                                },
-                                "assetHint": "assets/models/potato/potato.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[2420318001245333745]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 2420318001245333745,
-                    "m_name": "PotatoScript.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{6098DF47-DB8F-5232-9792-C05378AE5220}",
-                            "path": "projekty/PotatoInSpace/scriptcanvas/PotatoScript.scriptcanvas"
-                        }
-                    },
-                    "sourceHandle": {
-                        "id": "{6098DF47-DB8F-5232-9792-C05378AE5220}",
-                        "path": "projekty/PotatoInSpace/scriptcanvas/PotatoScript.scriptcanvas"
-                    }
-                },
-                "Component_[2458618847677685609]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 2458618847677685609
-                },
-                "Component_[3144130856996940843]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 3144130856996940843,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {},
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{1FFD8935-FA59-5180-ADF1-2A4D15F657B1}",
-                                                "subId": 2328395911
-                                            },
-                                            "assetHint": "assets/models/potato/potato_material_001_7062975352964415623.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2328395911
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{361D797E-52A3-5B91-8522-E73EDA682120}"
-                                            },
-                                            "assetHint": "assets/models/potato/potato_material.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "Component_[3877391221986580189]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 3877391221986580189
-                },
-                "Component_[5181149770923499337]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 5181149770923499337,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            27.728370666503906,
-                            0.10000808537006378,
-                            -2.7148590087890625
-                        ],
-                        "Rotate": [
-                            -89.99994659423828,
-                            0.0,
-                            0.0
-                        ],
-                        "UniformScale": 8.0
-                    }
-                },
-                "Component_[6098785699235527253]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 6098785699235527253
-                },
-                "Component_[754505384300905972]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 754505384300905972
-                },
-                "Component_[9104492512308508653]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9104492512308508653
-                }
-            }
         }
     },
     "Instances": {
@@ -999,6 +635,51 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[7164114166588491751]/Transform Data/Translate/2",
                     "value": 3.9998083114624023
+                }
+            ]
+        },
+        "Instance_[4699027320787]": {
+            "Source": "Assets/Prefabs/FighterJet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5608429080318202864]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5608429080318202864]/Transform Data/Translate/2",
+                    "value": 0.30246973037719727
+                }
+            ]
+        },
+        "Instance_[5497891237843]": {
+            "Source": "Assets/Prefabs/PotatoBoss.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Transform Data/Translate/0",
+                    "value": 27.728370666503906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Transform Data/Translate/1",
+                    "value": 0.10000808537006378
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Transform Data/Translate/2",
+                    "value": -2.7148590087890625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Transform Data/Rotate/0",
+                    "value": -89.99994659423828
                 }
             ]
         }
