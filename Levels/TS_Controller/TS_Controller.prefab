@@ -19,10 +19,10 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
+                    "Entity_[2416104514744]",
                     "Entity_[1176639161715]",
                     "Instance_[44354727726261]/ContainerEntity",
                     "Entity_[43898049632661]",
-                    "Instance_[4699027320787]/ContainerEntity",
                     "Instance_[5497891237843]/ContainerEntity"
                 ]
             },
@@ -174,24 +174,13 @@
                         }
                     },
                     "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                    "subId": 51387626
-                                },
-                                "assetHint": "objects/groudplane/groundplane_512x512m.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                        "subId": 51387626
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "objects/groudplane/groundplane_512x512m.pxmesh"
-                                }
-                            }
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                256.0,
+                                256.0,
+                                0.10000000149011612
+                            ]
                         }
                     }
                 },
@@ -207,7 +196,7 @@
                                     },
                                     "Value": {
                                         "PropertyOverrides": {
-                                            "baseColor.color": {
+                                            " ÿ5–B\u0001": {
                                                 "$type": "Color",
                                                 "Value": [
                                                     0.24489204585552216,
@@ -523,6 +512,233 @@
                 }
             }
         },
+        "Entity_[2416104514744]": {
+            "Id": "Entity_[2416104514744]",
+            "Name": "FighterJet",
+            "Components": {
+                "Component_[11640642464078712244]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11640642464078712244
+                },
+                "Component_[11894316883142242454]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11894316883142242454
+                },
+                "Component_[12119421137870740418]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12119421137870740418
+                },
+                "Component_[16892395085355407701]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16892395085355407701,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 24214524
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CC8CE8CA-A13F-5304-83F7-19C978F743A4}"
+                                            },
+                                            "assetHint": "assets/models/fighterjet/jetfighterlp_body.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16902418110580452077]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16902418110580452077,
+                    "m_name": "FighterJetControllere.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
+                                },
+                                "VariableName": "moveSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{8E0C1054-82D2-4A47-9D37-78F0BA7FED7A}"
+                                },
+                                "VariableName": "moveSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{D96F48F8-DFBE-448F-9E71-820C99B98F12}"
+                                },
+                                "VariableName": "CameraEntity",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    },
+                    "sourceHandle": {
+                        "id": "{10B9C3E0-3B39-5085-818B-6FC83398BFBC}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/FighterJetControllere.scriptcanvas"
+                    }
+                },
+                "Component_[17200430978270548827]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17200430978270548827,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D791934A-339C-5D6E-93C6-B235A6EAD79E}",
+                                    "subId": 275270123
+                                },
+                                "assetHint": "assets/models/fighterjet/jetfighterlp.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18387517852975700585]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 18387517852975700585,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionGroupId": {
+                            "GroupId": "{C8FA65FC-DF6D-455D-B48C-D284626C3A7D}"
+                        },
+                        "Material": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    }
+                },
+                "Component_[2127490419667373060]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2127490419667373060,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6649302931403631281
+                        },
+                        {
+                            "ComponentId": 16902418110580452077,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17200430978270548827,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 16892395085355407701,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 721784289161966700,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 18387517852975700585,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "Component_[2168322434459849835]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2168322434459849835
+                },
+                "Component_[3196671727195140216]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3196671727195140216
+                },
+                "Component_[6649302931403631281]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6649302931403631281,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.30246973037719727
+                        ]
+                    }
+                },
+                "Component_[721784289161966700]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 721784289161966700,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "Position": [
+                            0.5,
+                            0.0,
+                            0.0
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.25
+                        }
+                    }
+                },
+                "Component_[8951604065603982974]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8951604065603982974
+                },
+                "Component_[9285655751037969402]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9285655751037969402
+                },
+                "Component_[9928186710221945408]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9928186710221945408
+                }
+            }
+        },
         "Entity_[43898049632661]": {
             "Id": "Entity_[43898049632661]",
             "Name": "UI",
@@ -539,26 +755,69 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 11747463897536974165
                 },
-                "Component_[13642557965429554217]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 13642557965429554217,
-                    "m_template": {
-                        "$type": "InputConfigurationComponent",
-                        "Input Event Bindings": {
-                            "assetId": {
-                                "guid": "{E22BE4FC-D9EE-5F7B-9F24-CC6832CB473F}"
-                            },
-                            "assetHint": "assets/ui/akey.inputbindings"
-                        }
-                    }
-                },
                 "Component_[15160349169186579302]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15160349169186579302
+                    "Id": 15160349169186579302,
+                    "DisabledComponents": [
+                        {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 3776459308562811118,
+                            "m_template": {
+                                "$type": "UiCanvasAssetRefComponent",
+                                "CanvasAssetRef": {
+                                    "AssetPath": "assets/ui/intro.uicanvas"
+                                },
+                                "IsAutoLoad": true
+                            }
+                        },
+                        {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 13642557965429554217,
+                            "m_template": {
+                                "$type": "InputConfigurationComponent",
+                                "Input Event Bindings": {
+                                    "assetId": {
+                                        "guid": "{E22BE4FC-D9EE-5F7B-9F24-CC6832CB473F}"
+                                    },
+                                    "assetHint": "assets/ui/akey.inputbindings"
+                                }
+                            }
+                        },
+                        {
+                            "$type": "EditorScriptCanvasComponent",
+                            "Id": 513269112303222069,
+                            "m_name": "MainScript.scriptcanvas",
+                            "runtimeDataOverrides": {
+                                "source": {
+                                    "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                                    "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                                }
+                            },
+                            "sourceHandle": {
+                                "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
+                                "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
+                            }
+                        }
+                    ]
                 },
                 "Component_[15363319464832839358]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 15363319464832839358
+                },
+                "Component_[16278804782542961707]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16278804782542961707,
+                    "m_name": "SimluateStartGame.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{17533272-7AB4-5D02-B8F7-026FBB7D6E3E}",
+                            "path": "projekty/PotatoInSpace/scriptcanvas/SimluateStartGame.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{17533272-7AB4-5D02-B8F7-026FBB7D6E3E}",
+                        "path": "projekty/PotatoInSpace/scriptcanvas/SimluateStartGame.scriptcanvas"
+                    }
                 },
                 "Component_[18299161719430484075]": {
                     "$type": "EditorLockComponent",
@@ -568,35 +827,9 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 366390804380744085
                 },
-                "Component_[3776459308562811118]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 3776459308562811118,
-                    "m_template": {
-                        "$type": "UiCanvasAssetRefComponent",
-                        "CanvasAssetRef": {
-                            "AssetPath": "assets/ui/intro.uicanvas"
-                        },
-                        "IsAutoLoad": true
-                    }
-                },
                 "Component_[3842042479250714395]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 3842042479250714395
-                },
-                "Component_[513269112303222069]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 513269112303222069,
-                    "m_name": "MainScript.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                            "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                        }
-                    },
-                    "sourceHandle": {
-                        "id": "{71DF65E5-FEB5-5EAF-9E95-F02AA8D8256F}",
-                        "path": "projekty/PotatoInSpace/Assets/UI/MainScript.scriptcanvas"
-                    }
                 },
                 "Component_[8868828105712803460]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -638,21 +871,6 @@
                 }
             ]
         },
-        "Instance_[4699027320787]": {
-            "Source": "Assets/Prefabs/FighterJet.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[5608429080318202864]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[5608429080318202864]/Transform Data/Translate/2",
-                    "value": 0.30246973037719727
-                }
-            ]
-        },
         "Instance_[5497891237843]": {
             "Source": "Assets/Prefabs/PotatoBoss.prefab",
             "Patches": [
@@ -664,7 +882,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5032008818163195720]/Transform Data/Translate/0",
-                    "value": 27.728370666503906
+                    "value": 27.728370666503903
                 },
                 {
                     "op": "replace",
